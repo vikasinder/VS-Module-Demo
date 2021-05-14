@@ -1,5 +1,5 @@
 # Class is declared That contains all the functions and variable
-class area_parameters_volume:
+class Area_parameters_volume:
     # Global single variable is declared that gets the calculated result
     calculate = 0
 # Option function is declared that is called on lab_file1 page

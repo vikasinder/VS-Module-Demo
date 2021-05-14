@@ -1,0 +1,4 @@
+__pycache__/
+.vscode/
+# Virtual Envioment Folder Is Ignored
+vikas_venv/

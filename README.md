@@ -13,8 +13,29 @@ The following instructions assumes you already have python downloaded and added 
 3. Select download as zip file
 4. Unzip the file and open a terminal for the project directory
 
+## Step1 (can be done only one time): Create your virtual environment
+To create a virtual environment, decide upon a directory where you want to place it, and run the venv module as a script with the directory path:
+python3 -m venv tutorial-env OR python -m venv tutorial-env
 
- Project To calculate Math Functions
+## Step2 (done when opening your app): Activate your virtual environment
+Once you’ve created a virtual environment, you may activate it.
+
+On Windows, run:tutorial-env\Scripts\activate.bat.\tutorial-env\Scripts\activate
+tutorial-env\Scripts\activate
+
+On Unix or MacOS, run: source tutorial-env/bin/activate
+
+## Step3: Install the required package:
+
+On Windows / MacOS
+pip install colorama
+
+## Step4: Creating the "requirements.txt"
+On Windows / MacOS
+pip freeze > requirements.txt
+Coding the file and print the result
+
+# Project To calculate Math Functions
 
 ## Program Developed in Python Language to get  input from user and calculate Area Volume or Perimeter of rectangle,square,cube cylinder, sphere accordinly
 
